@@ -1,0 +1,22 @@
+# Core
+langchain
+langchain_community
+langchain-text-splitters
+python-dotenv
+ipykernel
+
+# Document loaders
+pypdf
+pymupdf
+bs4
+arxiv==1.4.8
+
+# Embedding providers
+langchain_openai
+langchain-ollama
+langchain_huggingface
+sentence-transformers
+
+# Vector stores
+chromadb
+faiss-cpu
