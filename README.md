@@ -5,6 +5,8 @@ Beginner-friendly Jupyter notebooks for learning **LangChain** and the basics of
 > 📌 **Note:** This repo is a **bird's-eye view of LangChain**: just the basic building blocks of RAG (loading, splitting, embedding and storing data).
 > It's not a full application yet. It's my foundation before going deeper into chains, retrievers and complete RAG apps.
 
+![LangChain RAG Basics: Load, Split, Embed, Store and Search](images/rag-pipeline.png)
+
 ## What is RAG?
 
 LLMs only know what they were trained on. **RAG** gives them access to *your own* data: relevant pieces of your documents are retrieved and passed to the LLM together with the question.
@@ -28,6 +30,8 @@ Langchain/
 │   ├── 04-VectorStore-FAISS.ipynb # FAISS: search, retriever, save/load
 │   ├── speech.txt                 # Sample text data
 │   └── Attention.pdf              # Sample PDF ("Attention Is All You Need")
+├── images/
+│   └── rag-pipeline.png           # Pipeline infographic
 ├── .env.example                   # Template for API keys
 ├── .gitignore
 ├── requirements.txt
