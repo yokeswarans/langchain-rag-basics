@@ -2,6 +2,9 @@
 
 Beginner-friendly Jupyter notebooks for learning **LangChain** and the basics of **RAG (Retrieval-Augmented Generation)** step by step.
 
+> 📌 **Note:** This repo is a **1000-foot view of LangChain**: just the basic building blocks of RAG (loading, splitting, embedding and storing data).
+> It's not a full application yet. It's my foundation before going deeper into chains, retrievers and complete RAG apps.
+
 ## What is RAG?
 
 LLMs only know what they were trained on. **RAG** gives them access to *your own* data: relevant pieces of your documents are retrieved and passed to the LLM together with the question.
